@@ -1,0 +1,15 @@
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\LearnCSharpInOneDay.exe
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\LearnCSharpInOneDay.deps.json
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\LearnCSharpInOneDay.runtimeconfig.json
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\LearnCSharpInOneDay.runtimeconfig.dev.json
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\LearnCSharpInOneDay.dll
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\LearnCSharpInOneDay.pdb
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.csprojAssemblyReference.cache
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.AssemblyInfoInputs.cache
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.AssemblyInfo.cs
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.dll
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.pdb
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.genruntimeconfig.cache
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.csproj.CoreCompileInputs.cache
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\bin\Debug\netcoreapp3.1\CsvHelper.dll
+E:\Projekty\LearnCSharpInOneDay\LearnCSharpInOneDay\obj\Debug\netcoreapp3.1\LearnCSharpInOneDay.csproj.CopyComplete

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lDAchcVOhIYCuzGWHJ6UsqADjaxKtvESlvuqvXbC8pnRfKquelp/fox0owpf0+ZHqeQqmmVyzkdWiKv/cLXsCg==",
+  "success": true,
+  "projectFilePath": "E:\\Projekty\\LearnCSharpInOneDay\\LearnCSharpInOneDay\\LearnCSharpInOneDay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wojtysiak_k\\.nuget\\packages\\csvhelper\\15.0.5\\csvhelper.15.0.5.nupkg.sha512",
+    "C:\\Users\\wojtysiak_k\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

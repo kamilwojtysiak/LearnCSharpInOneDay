@@ -14,7 +14,7 @@ namespace LearnCSharpInOneDay
         public float BasicPay { get; private set; }
         public string NameOfStaff { get; private set; }
 
-        public float HoursWorked
+        public int HoursWorked
         {
             get 
             {
@@ -22,9 +22,9 @@ namespace LearnCSharpInOneDay
             }
             set 
             {
-                if (HoursWorked > 0)
+                if (value > 0)
                 {
-                    value = _hWorked;
+                    _hWorked = value;
                 }
                 else
                 {
@@ -50,7 +50,7 @@ namespace LearnCSharpInOneDay
 
         public override string ToString()
         {
-            return $"Hours worked = {HoursWorked} \nHourly rate = {_hourlyRate} \nTotal pay = {TotalPay}";
+            return $"Hours worked = {_hWorked} \nHourly rate = {_hourlyRate} \nTotal pay = {TotalPay}";
         }
     }
 }

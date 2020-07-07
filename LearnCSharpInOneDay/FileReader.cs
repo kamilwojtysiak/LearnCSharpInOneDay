@@ -17,11 +17,27 @@ namespace LearnCSharpInOneDay
             if (File.Exists(path))
             {
                 StreamReader streamReader = new StreamReader(path);
-                
 
-                streamReader.Close();
+                while (streamReader.EndOfStream != true)
+                {
+                    result = streamReader.ReadLine().Split(separator, StringSplitOptions.None);
+
+                    if (result[1] == "Manager")
+                    {
+                        myStaff.Add(new Manager(result[0]));
+                    }
+                    if (result[1] == "Admin")
+                    {
+                        myStaff.Add(new Admin(result[0]));
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("ERROR - file doesen't exist");
             }
 
+            return myStaff;
         }
     }
 }

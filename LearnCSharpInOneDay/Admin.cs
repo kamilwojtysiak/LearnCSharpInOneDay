@@ -23,15 +23,13 @@ namespace LearnCSharpInOneDay
 
             if (HoursWorked > 160)
             {
-                Overtime = _overtimeRate * (160 - HoursWorked);
-
-                TotalPay += Overtime;
+                Overtime = _overtimeRate * (HoursWorked - 160);
             }
         }
 
         public override string ToString()
         {
-            return $"Admin hours worked = {HoursWorked} \nAdmin hourly rate = {_adminhourlyRate} \nTotal pay = {TotalPay}";
+            return $"Admin hours worked = {HoursWorked} \nAdmin hourly rate = {_adminhourlyRate} \nTotal pay = {TotalPay += Overtime}";
         }
     }
 }

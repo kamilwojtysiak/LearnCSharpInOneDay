@@ -21,7 +21,7 @@ namespace LearnCSharpInOneDay
 
             Allowance = 1000;
 
-            if (HoursWorked > 160)
+            if (HoursWorked >= 160)
             {
                 TotalPay += Allowance;
             }

@@ -8,11 +8,11 @@ namespace LearnCSharpInOneDay
     public class Admin: Staff
     {
         private const float _overtimeRate = 15.5f;
-        private const float _adminhourlyRate = 30f;
+        private const float _adminHourlyRate = 30f;
 
         public float Overtime { get; private set; }
 
-        public Admin(string name) : base(name, _adminhourlyRate)
+        public Admin(string name) : base(name, _adminHourlyRate)
         {
 
         }
@@ -23,13 +23,15 @@ namespace LearnCSharpInOneDay
 
             if (HoursWorked > 160)
             {
-                Overtime = _overtimeRate * (HoursWorked - 160);
+                Overtime = (HoursWorked - 160) *_overtimeRate;
+
+                TotalPay += Overtime;
             }
         }
 
         public override string ToString()
         {
-            return $"Admin hours worked = {HoursWorked} \nAdmin hourly rate = {_adminhourlyRate} \nTotal pay = {TotalPay += Overtime}";
+            return $"Admin hours worked = {HoursWorked} \nAdmin hourly rate = {_adminHourlyRate} \nTotal pay = {TotalPay}";
         }
     }
 }

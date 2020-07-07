@@ -15,22 +15,22 @@ namespace LearnCSharpInOneDay
         {
             JAN = 1,
             FEB = 2,
-            MAR = 3,
-            APR = 4,
-            MAY = 5,
-            JUN = 6,
-            JUL = 7,
-            AUG = 8,
-            SEP = 9,
-            OCT = 10,
-            NOV = 11,
-            DEC = 12
+            MAR,
+            APR,
+            MAY,
+            JUN,
+            JUL,
+            AUG,
+            SEP,
+            OCT,
+            NOV,
+            DEC
         }
 
-        public PaySlip(int payMonth, int payYear)
+        public PaySlip(int month, int year)
         {
-            _month = payMonth;
-            _year = payYear;
+            _month = month;
+            _year = year;
         }
 
         public void GeneratePaySlip(List<Staff> myStaff)
@@ -44,7 +44,7 @@ namespace LearnCSharpInOneDay
                 using (StreamWriter sw = new StreamWriter(path))
                 {
                     sw.WriteLine($"PAYSLIP FOR {(MonthsOfYear)_month} {_year}");
-                    sw.WriteLine("========================");
+                    sw.WriteLine("======================");
                     sw.WriteLine($"Name of Staff: {staff.NameOfStaff}");
                     sw.WriteLine($"Hours Worked: {staff.HoursWorked}");
                     sw.WriteLine("");
@@ -60,9 +60,9 @@ namespace LearnCSharpInOneDay
                     }
 
                     sw.WriteLine("");
-                    sw.WriteLine("========================");
+                    sw.WriteLine("======================");
                     sw.WriteLine($"Total pay: {staff.TotalPay}");
-                    sw.WriteLine("========================");
+                    sw.WriteLine("======================");
 
                     sw.Close();
                 }
